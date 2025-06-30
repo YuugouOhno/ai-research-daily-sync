@@ -1,51 +1,13 @@
-# Step2: 記事詳細取得・要約・まとめ生成コマンド
+# Fetch and Summarize Today Command
 
-latest_blog.jsonから各記事の詳細内容を取得し、個別要約ファイルとabstract.mdを生成します。
+This command processes articles from latest_blog.json and creates individual summary files for each article.
 
-## 実行手順
+## Process:
+1. Read latest_blog.json to get list of articles
+2. Use WebFetch to get detailed content for each article URL
+3. Generate individual summary files following the established template format
+4. Organize files in the YYYY/YYYY-MM-DD/ folder structure
+5. Update abstract.md with new articles if needed
 
-1. **今日の日付取得とファイル確認**
-   - 今日の日付（YYYY-MM-DD）を取得
-   - `YYYY/YYYY-MM-DD/latest_blog.json` の存在確認
-
-2. **JSONデータ読み込み**
-   - latest_blog.jsonから構造化データを読み込み
-   - JSON形式で記事情報を解析
-   - ブログ名、タイトル、URL、公開日情報を取得
-
-3. **記事内容取得と個別要約生成**
-   - 各URLに対してWebFetchツールでフルコンテンツを取得
-   - `.claude/templates/article_template.md`の形式に従って要約生成
-   - WebFetchプロンプトはテンプレートファイルを参照
-
-4. **個別記事ファイル生成**
-   - 各記事を `YYYY/YYYY-MM-DD/[記事タイトル].md` として保存
-   - **形式**: `.claude/templates/article_template.md`で定義された統一形式を**厳密に遵守**
-   - ファイル名は適切な文字に変換
-   - **必須**: テンプレートで定義されたMarkdown形式とメタデータ構造を完全に適用
-
-5. **インテリジェントタグ付け**
-   - `.claude/templates/article_template.md`のタグ付けルールを**厳格に適用**
-   - 新着記事用タグルールに従って自動タグ付け
-
-6. **処理結果出力**
-   - 取得成功/失敗の件数
-   - 生成されたファイル一覧
-   - 各記事に付与されたタグの一覧
-   - エラーがある場合は詳細
-
-## 使用ツール
-- **Bash**: 日付取得とファイル名処理
-- **Read**: latest_blog.jsonの読み込み
-- **WebFetch**: 各記事の詳細内容取得
-- **Write**: 個別要約ファイルとabstract.mdの生成
-
-## エラー処理
-- URLアクセスに失敗した場合はスキップし、エラーログを記録
-- ファイル名に使用できない文字は自動的に置換
-- 重複するファイル名の場合は連番を追加
-
----
-
-**実行開始**: 上記の手順に従って記事詳細取得・要約生成を実行してください。
-**次のステップ**: `/generate_daily_abstract` で今日のabstract.mdファイルを生成
+## Execution:
+The command should fetch content, analyze publication dates, and create appropriately organized summary files with structured Japanese format and source attribution.
