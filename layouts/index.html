@@ -1,0 +1,124 @@
+{{ define "main" }}
+<div class="home">
+  <div class="home-info">
+    <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
+    <p>{{ .Site.Params.homeInfoParams.Content }}</p>
+  </div>
+
+  <div class="abstract-list">
+    <h2>最新の更新サマリ</h2>
+    
+    {{ $abstracts := slice }}
+    {{ range .Site.RegularPages }}
+      {{ if eq .File.LogicalName "abstract.md" }}
+        {{ $abstracts = $abstracts | append . }}
+      {{ end }}
+    {{ end }}
+    
+    {{ range $abstracts.ByDate.Reverse }}
+      {{ $dateDir := path.Dir .File.Path }}
+      {{ $date := path.Base $dateDir }}
+      <article class="abstract-item">
+        <div class="abstract-meta">
+          <time datetime="{{ $date }}">{{ dateFormat "2006年01月02日" (time $date) }}</time>
+        </div>
+        <h3>
+          <a href="{{ .Permalink }}">今日の更新サマリ ({{ $date }})</a>
+        </h3>
+        <div class="abstract-summary">
+          {{ .Summary | truncate 200 }}
+        </div>
+        <div class="abstract-actions">
+          <a href="{{ .Permalink }}" class="read-more">詳細を見る →</a>
+        </div>
+      </article>
+    {{ end }}
+    
+    {{ if eq (len $abstracts) 0 }}
+      <p>まだ更新サマリがありません。</p>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.home-info {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.home-info h1 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.abstract-list h2 {
+  margin-bottom: 2rem;
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.abstract-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.abstract-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.abstract-meta time {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.abstract-item h3 {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.abstract-item h3 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.abstract-item h3 a:hover {
+  color: #3498db;
+}
+
+.abstract-summary {
+  color: #5d6d7e;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.abstract-actions {
+  text-align: right;
+}
+
+.read-more {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.read-more:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+</style>
+{{ end }}
