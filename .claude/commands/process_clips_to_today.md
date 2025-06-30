@@ -20,18 +20,37 @@ clipsフォルダ内の手動クリップコンテンツを今日の個別まと
 
 4. **新しいテンプレート形式での変換**
    - **形式**: `.claude/templates/article_template.md`で定義された統一形式を使用
-   - タグに"selfclip"を追加
    - 既存メタデータを保持し、created日付のみ今日で更新
    - コンテンツ部分は統一テンプレートに従って再構成
 
-5. **ファイル保存と削除**
+5. **インテリジェントタグ付け（手動クリップ専用）**
+   - **必須タグ**: `selfclip`, `clippings`
+   - **ソース別タグ**: URLドメインから推定
+     - qiita.com → `qiita`, `japanese-tech`
+     - zenn.dev → `zenn`, `japanese-tech`
+     - note.com → `note`, `japanese-blog`
+     - github.com → `github`, `open-source`
+     - youtube.com → `youtube`, `video-content`
+     - twitter.com/x.com → `twitter`, `social-media`
+   - **内容別タグ**: 記事タイトルと内容から推定
+     - MCP関連: `mcp`, `claude-integration`
+     - ChatGPT/Claude関連: `chatgpt`, `claude`, `ai-assistant`
+     - プログラミング: `programming`, `development`
+     - フロントエンド: `frontend`, `javascript`, `react`
+     - バックエンド: `backend`, `api`, `database`
+     - DevOps: `devops`, `deployment`, `ci-cd`
+     - 機械学習: `machine-learning`, `data-science`
+   - **日本語コンテンツタグ**: `japanese-content` (日本語記事の場合)
+
+6. **ファイル保存と削除**
    - 変換されたファイルを `YYYY/YYYY-MM-DD/[記事タイトル].md` として保存
    - ファイル名は適切な文字に変換（特殊文字の置換など）
    - 処理が完了したclipsファイルを削除
 
-6. **処理結果出力**
+7. **処理結果出力**
    - 処理されたファイル数
    - 変換成功/失敗の件数
+   - 各記事に付与されたタグの一覧
    - エラーがある場合は詳細
 
 ## 使用ツール
