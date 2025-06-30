@@ -1,0 +1,20 @@
+{
+  "date": "2025-06-30",
+  "sources": {
+    "Google Research Blog": [
+      {
+        "title": "How we created HOV-specific ETAs in Google Maps",
+        "url": "https://research.google/blog/how-we-created-hov-specific-etas-in-google-maps/",
+        "published": "2025-06-30"
+      }
+    ],
+    "Microsoft AI News": [
+      {
+        "title": "Steijn: The AI assistant transforming meal planning for millions in the Netherlands",
+        "url": "https://news.microsoft.com/source/emea/features/steijn-the-ai-assistant-transforming-meal-planning-for-millions-in-the-netherlands/",
+        "published": "2025-07-01"
+      }
+    ]
+  },
+  "no_updates": ["OpenAI News", "Anthropic News", "Meta AI Blog"]
+}
