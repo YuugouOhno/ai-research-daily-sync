@@ -13,6 +13,7 @@
 
 ## Meta AI Blog
 [[Modeling natural conversational dynamics with Seamless Interaction]] — Meta AIが人間の会話のダイナミクスをモデル化する新技術を発表。音声と視覚入力から自然な表情やジェスチャーを生成し、4,000時間以上の対話データセットを公開してバーチャルエージェントの対話能力を向上させる。
+[Fetching Title#v6nk](https://ai.meta.com/blog/seamless-interaction-natural-conversational-dynamics)
 [元記事:https://ai.meta.com/blog/seamless-interaction-natural-conversational-dynamics/]
 
 ## VentureBeat
