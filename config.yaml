@@ -1,62 +1,25 @@
 baseURL: 'https://yuugouohno.github.io/ai-research-daily-sync'
 languageCode: 'ja'
 title: 'AI Research Daily'
-theme: 'PaperMod'
+theme: PaperMod
 
 params:
   env: production
   title: "AI Research Daily"
   description: "毎日更新されるAI関連の技術記事とニュースの要約"
-  keywords: [AI, Machine Learning, Tech News, Research]
-  author: "yuugouohno"
   
-  # Disable Google Analytics to avoid template errors
-  disableGoogleAnalytics: true
-  
-  # Home page settings
   homeInfoParams:
     Title: "AI Research Daily"
-    Content: "最新のAI技術記事やニュースを毎日収集・要約しています。各日の更新サマリから詳細記事にアクセスできます。"
-  
-  # Social links
-  socialIcons:
-    - name: github
-      url: "https://github.com/yuugouohno"
-
-  # Enable search
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-menu:
-  main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
-    - identifier: archives
-      name: Archives
-      url: /archives
-      weight: 20
+    Content: "最新のAI技術記事やニュースを毎日収集・要約しています。"
 
 # Content organization
 contentDir: "content"
-staticDir: "static"
-layoutDir: "layouts"
 
 # Markdown settings
 markup:
   goldmark:
     renderer:
       unsafe: true
-  highlight:
-    style: github
-    lineNos: true
 
 # Pagination
 pagination:
@@ -65,11 +28,3 @@ pagination:
 # Build settings
 buildDrafts: false
 buildFuture: false
-buildExpired: false
-
-# Output formats
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
