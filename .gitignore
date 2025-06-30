@@ -1,0 +1,50 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Generated content that might be too large or personal
+# Uncomment if you want to exclude daily generated files:
+# 2024/
+# 2025/
+
+# Exclude specific sensitive files if any
+# last_run.txt  # Uncomment if you don't want to track execution state

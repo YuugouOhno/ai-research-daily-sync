@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "主要企業の公式ブログ": {
+      "OpenAI News": "https://openai.com/ja-JP/news/",
+      "Google Research Blog": "https://research.google/blog/",
+      "Anthropic News": "https://www.anthropic.com/news",
+      "Meta AI Blog": "https://ai.meta.com/blog/",
+      "Microsoft AI News": "https://news.microsoft.com/source/topics/ai/"
+    },
+    "AI系のブログ": {
+      "_disabled": [
+        "https://www.bensbites.com/p/im-on-the-claude-code-train",
+        "https://simonwillison.net/",
+        "https://zenn.dev/p/mkj",
+        "https://venturebeat.com/category/ai/"
+      ]
+    }
+  }
+}
