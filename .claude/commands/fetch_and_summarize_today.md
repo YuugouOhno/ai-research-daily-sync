@@ -20,29 +20,13 @@ latest_blog.jsonから各記事の詳細内容を取得し、個別要約ファ�
 
 4. **個別記事ファイル生成**
    - 各記事を `YYYY/YYYY-MM-DD/[記事タイトル].md` として保存
-   - **形式**: `.claude/templates/article_template.md`で定義された統一形式を使用
+   - **形式**: `.claude/templates/article_template.md`で定義された統一形式を**厳密に遵守**
    - ファイル名は適切な文字に変換
+   - **必須**: テンプレートで定義されたMarkdown形式とメタデータ構造を完全に適用
 
 5. **インテリジェントタグ付け**
-   - **ソース別タグ**: ブログソース名に基づく自動タグ
-     - Google Research → `google-research`, `research-paper`
-     - Anthropic → `anthropic`, `claude`, `ai-safety`
-     - Meta AI → `meta-ai`, `social-media-ai`
-     - OpenAI → `openai`, `gpt`, `chatgpt`
-     - Microsoft AI → `microsoft-ai`, `azure-ai`
-     - VentureBeat → `industry-news`, `business-ai`
-   - **内容別タグ**: 記事内容から推定される技術分野タグ
-     - AI研究論文: `research-paper`, `academic`
-     - 製品発表: `product-launch`, `announcement`
-     - 技術解説: `technical-guide`, `tutorial`
-     - 業界分析: `industry-analysis`, `market-trend`
-     - セキュリティ: `security`, `privacy`
-     - プログラミング: `programming`, `development`
-     - データサイエンス: `data-science`, `machine-learning`
-   - **汎用タグ**: 全ての記事に共通
-     - `clippings` (必須)
-     - `ai` (AI関連記事の場合)
-     - `tech-news` (技術ニュースの場合)
+   - `.claude/templates/article_template.md`のタグ付けルールを**厳格に適用**
+   - 新着記事用タグルールに従って自動タグ付け
 
 6. **処理結果出力**
    - 取得成功/失敗の件数

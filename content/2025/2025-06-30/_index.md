@@ -1,49 +1,33 @@
 ---
-title: "今日の更新サマリ (2025-06-30)"
-description: "2025年6月30日に収集された技術記事の要約"
+title: "2025-06-30 AI研究・技術トレンド 日次サマリー"
 date: 2025-06-30
-tags: ["daily-summary", "ai-research", "tech-news"]
+description: "Google Research, Anthropic, Meta AI, Zenn, Qiitaから収集した7記事の要約"
 ---
 
-# 今日の更新サマリ (2025-06-30)
-
-2025年6月30日に収集された技術記事の要約です。
+# 2025-06-30 AI研究・技術トレンド 日次サマリー
 
 ## 記事一覧
 
-### Google Research Blog
-- [REGEN - Empowering personalized recommendations with natural language](./REGEN%20-%20Empowering%20personalized%20recommendations%20with%20natural%20language.md)  
-  大規模言語モデルを活用した新しいレコメンデーションデータセット「REGEN」を開発
+### 企業・研究機関 (4記事)
 
-### Anthropic News
-- [Introducing the Anthropic Economic Futures Program](./Introducing%20the%20Anthropic%20Economic%20Futures%20Program.md)  
-  AIの経済的影響を研究するための新しいプログラムを発表
+- **[REGEN - Empowering personalized recommendations with natural language](./REGEN%20-%20Empowering%20personalized%20recommendations%20with%20natural%20language.md)** - Google Research
+- **[Introducing the Anthropic Economic Futures Program](./Introducing%20the%20Anthropic%20Economic%20Futures%20Program.md)** - Anthropic
+- **[How People Use Claude for Support, Advice, and Companionship](./How%20People%20Use%20Claude%20for%20Support,%20Advice,%20and%20Companionship.md)** - Anthropic
+- **[Modeling natural conversational dynamics with Seamless Interaction](./Modeling%20natural%20conversational%20dynamics%20with%20Seamless%20Interaction.md)** - Meta AI
 
-- [How People Use Claude for Support, Advice, and Companionship](./How%20People%20Use%20Claude%20for%20Support,%20Advice,%20and%20Companionship.md)  
-  Claudeの感情的な利用パターンを分析した研究結果
+### 技術開発・実装 (3記事)
 
-### Meta AI Blog
-- [Modeling natural conversational dynamics with Seamless Interaction](./Modeling%20natural%20conversational%20dynamics%20with%20Seamless%20Interaction.md)  
-  人間の会話のダイナミクスをモデル化する新技術を発表
+- **[Claude Codeの問題解決能力の底上げを試みる：MCPサーバー + subagents](./Claude%20Codeの問題解決能力の底上げを試みる：MCPサーバー%20+%20subagents.md)** - Zenn
+- **[MCPで作る技術記事収集システム 1 - Qiita記事取得とMCP基盤構築](./MCPで作る技術記事収集システム%201%20-%20Qiita記事取得とMCP基盤構築.md)** - Qiita
+- **[【Claude Code】初心者向け備忘～要件定義を1人で抱え込まないで～](./【Claude%20Code】初心者向け備忘～要件定義を1人で抱え込まないで～.md)** - Qiita
 
-### VentureBeat
-- [Identity theft hits 1.1M reports - and authentication fatigue is only getting worse](./Identity%20theft%20hits%201.1M%20reports%20-%20and%20authentication%20fatigue%20is%20only%20getting%20worse.md)  
-  認証における摩擦と利便性のバランスについて解説
+## 統合サマリー
+
+詳細な統合分析は[abstract.md](./abstract.md)をご覧ください。
 
 ## 統計情報
 
-- **収集記事数**: 5記事
-- **更新ソース**: 4サイト (Google Research, Anthropic, Meta AI, VentureBeat)
-- **未更新ソース**: OpenAI News, Microsoft AI News
-
-## 主要トピック
-
-- **個人化技術**: 自然言語による推薦システム
-- **AI政策・研究**: 経済的影響の学術研究
-- **AI利用実態**: 感情的サポートとしての活用
-- **対話技術**: バーチャルエージェントの自然な会話
-- **セキュリティ**: ID盗難と認証疲れの問題
-
----
-
-*各記事の詳細な要約は個別のページをご覧ください。*
+- **処理記事数**: 7記事
+- **情報源数**: 5サイト
+- **主要トピック**: AI研究、Claude活用、技術実装、感情的AI
+- **生成日時**: 2025-06-30

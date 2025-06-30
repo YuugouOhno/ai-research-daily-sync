@@ -1,32 +1,48 @@
 {
-  "date": "2025-06-30",
+  "fetch_date": "2025-06-30",
+  "last_run_date": "2025-06-27",
   "sources": {
-    "Google Research Blog": [
-      {
-        "title": "REGEN: Empowering personalized recommendations with natural language",
-        "url": "https://research.google/blog/regen-empowering-personalized-recommendations-with-natural-language/",
-        "published": "2025-06-27"
-      }
-    ],
-    "Anthropic News": [
-      {
-        "title": "Introducing the Anthropic Economic Futures Program",
-        "url": "https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program",
-        "published": "2025-06-27"
-      },
-      {
-        "title": "How People Use Claude for Support, Advice, and Companionship",
-        "url": "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship",
-        "published": "2025-06-27"
-      }
-    ],
-    "Meta AI Blog": [
-      {
-        "title": "Modeling natural conversational dynamics with Seamless Interaction",
-        "url": "https://ai.meta.com/blog/seamless-interaction-natural-conversational-dynamics/",
-        "published": "2025-06-27"
-      }
-    ]
-  },
-  "no_updates": ["OpenAI News", "Microsoft AI News"]
+    "Google Research Blog": {
+      "articles": [
+        {
+          "title": "REGEN: Empowering personalized recommendations with natural language",
+          "url": "https://research.google/blog/regen-empowering-personalized-recommendations-with-natural-language/",
+          "publish_date": "2025-06-27",
+          "summary": "A research project exploring how natural language can enhance personalized recommendation systems using advanced machine intelligence techniques."
+        }
+      ]
+    },
+    "Anthropic News": {
+      "articles": [
+        {
+          "title": "Introducing the Anthropic Economic Futures Program",
+          "url": "https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program",
+          "publish_date": "2025-06-27",
+          "summary": "Anthropic launches a new economic futures program to explore potential economic impacts of AI technology."
+        },
+        {
+          "title": "How People Use Claude for Support, Advice, and Companionship",
+          "url": "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship",
+          "publish_date": "2025-06-27",
+          "summary": "An exploration of how individuals are utilizing Claude for personal support and interaction."
+        }
+      ]
+    },
+    "Meta AI Blog": {
+      "articles": [
+        {
+          "title": "Modeling natural conversational dynamics with Seamless Interaction",
+          "url": "https://ai.meta.com/blog/seamless-interaction-natural-conversational-dynamics/",
+          "publish_date": "2025-06-27",
+          "summary": "Explores dyadic motion modeling to transform AI interactions, enabling more nuanced and human-like communication."
+        }
+      ]
+    },
+    "OpenAI News": {
+      "articles": []
+    },
+    "Microsoft AI News": {
+      "articles": []
+    }
+  }
 }

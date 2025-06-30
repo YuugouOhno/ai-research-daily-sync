@@ -100,12 +100,55 @@ Output all content in Japanese.
 3. **重要なポイント**: 実用的・技術的に重要な点をリスト化
 4. **所感・影響**: 業界・技術トレンドへの影響を分析
 
+## インテリジェントタグ付けルール
+
+### 新着記事用タグ
+- **ソース別タグ**: ブログソース名に基づく自動タグ
+  - Google Research → `google-research`, `research-paper`
+  - Anthropic → `anthropic`, `claude`, `ai-safety`
+  - Meta AI → `meta-ai`, `social-media-ai`
+  - OpenAI → `openai`, `gpt`, `chatgpt`
+  - Microsoft AI → `microsoft-ai`, `azure-ai`
+  - VentureBeat → `industry-news`, `business-ai`
+- **内容別タグ**: 記事内容から推定される技術分野タグ
+  - AI研究論文: `research-paper`, `academic`
+  - 製品発表: `product-launch`, `announcement`
+  - 技術解説: `technical-guide`, `tutorial`
+  - 業界分析: `industry-analysis`, `market-trend`
+  - セキュリティ: `security`, `privacy`
+  - プログラミング: `programming`, `development`
+  - データサイエンス: `data-science`, `machine-learning`
+- **汎用タグ**: 全ての記事に共通
+  - `clippings` (必須)
+  - `ai` (AI関連記事の場合)
+  - `tech-news` (技術ニュースの場合)
+
+### 手動クリップ用タグ
+- **必須タグ**: `selfclip`, `clippings`
+- **ソース別タグ**: URLドメインから推定
+  - qiita.com → `qiita`, `japanese-tech`
+  - zenn.dev → `zenn`, `japanese-tech`
+  - note.com → `note`, `japanese-blog`
+  - github.com → `github`, `open-source`
+  - youtube.com → `youtube`, `video-content`
+  - twitter.com/x.com → `twitter`, `social-media`
+- **内容別タグ**: 記事タイトルと内容から推定
+  - MCP関連: `mcp`, `claude-integration`
+  - ChatGPT/Claude関連: `chatgpt`, `claude`, `ai-assistant`
+  - プログラミング: `programming`, `development`
+  - フロントエンド: `frontend`, `javascript`, `react`
+  - バックエンド: `backend`, `api`, `database`
+  - DevOps: `devops`, `deployment`, `ci-cd`
+  - 機械学習: `machine-learning`, `data-science`
+- **日本語コンテンツタグ**: `japanese-content` (日本語記事の場合)
+
 ## 品質基準
 
 - 日本語での要約（元記事言語問わず）
 - 技術的正確性の維持
 - 簡潔性と詳細性のバランス
 - 一貫したトーン・文体
+- 適切なタグ付け（上記ルールに従って）
 
 ---
 
