@@ -10,6 +10,9 @@ params:
   keywords: [AI, Machine Learning, Tech News, Research]
   author: "yuugouohno"
   
+  # Disable Google Analytics to avoid template errors
+  disableGoogleAnalytics: true
+  
   # Home page settings
   homeInfoParams:
     Title: "AI Research Daily"
