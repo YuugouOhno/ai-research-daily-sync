@@ -59,7 +59,8 @@ markup:
     lineNos: true
 
 # Pagination
-paginate: 10
+pagination:
+  pagerSize: 10
 
 # Build settings
 buildDrafts: false
