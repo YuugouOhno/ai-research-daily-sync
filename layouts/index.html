@@ -18,16 +18,18 @@
     {{ range $abstracts.ByDate.Reverse }}
       {{ $dateDir := path.Dir .File.Path }}
       {{ $date := path.Base $dateDir }}
-      <article class="abstract-item" href="{{ .Permalink }}">
-        <div class="abstract-meta">
-          <time datetime="{{ $date }}">{{ dateFormat "2006年01月02日" (time $date) }}</time>
-        </div>
-        <div class="abstract-summary">
-          {{ .Summary | truncate 200 }}
-        </div>
-        <div class="abstract-actions">
-          <a href="{{ .Permalink }}" class="read-more">詳細を見る →</a>
-        </div>
+      <article class="abstract-item">
+        <a href="{{ .Permalink }}">
+          <div class="abstract-meta">
+            <time datetime="{{ $date }}">{{ dateFormat "2006年01月02日" (time $date) }}</time>
+          </div>
+          <div class="abstract-summary">
+            {{ .Summary | truncate 200 }}
+          </div>
+          <div class="abstract-actions">
+            <a href="{{ .Permalink }}" class="read-more">詳細を見る →</a>
+          </div>
+        </a>
       </article>
     {{ end }}
     
