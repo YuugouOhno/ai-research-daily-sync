@@ -15,17 +15,17 @@
 ### 🏢 企業・研究機関 (1記事)
 
 #### Microsoft AI
-- **[Steijn - オランダの食事計画を変革するAIアシスタント](./Steijn - オランダの食事計画を変革するAIアシスタント.md)**: アルバート・ハインがAzure AI Foundryで開発したAIアシスタント。8人のチームが3ヶ月で開発し、20,000以上のレシピデータベースを活用。食品ロス削減と栄養アドバイスを提供し、週間500万人の顧客にサービス提供。食事計画時間を1.5-2時間短縮。
-[元記事](https://news.microsoft.com/source/emea/features/steijn-the-ai-assistant-transforming-meal-planning-for-millions-in-the-netherlands/)
+- **[Steijn - オランダの食事計画を変革するAIアシスタント](./20250701-001.md)**: アルバート・ハインがAzure AI Foundryで開発したAIアシスタント。8人のチームが3ヶ月で開発し、20,000以上のレシピデータベースを活用。食品ロス削減と栄養アドバイスを提供し、週間500万人の顧客にサービス提供。食事計画時間を1.5-2時間短縮。
+https://news.microsoft.com/source/emea/features/steijn-the-ai-assistant-transforming-meal-planning-for-millions-in-the-netherlands/
 
 ### 🔧 技術プラットフォーム (2記事)
 
 #### Zenn
 - **MCP入門**: Model Context Protocol（MCP）の基本概念とアーキテクチャを解説。AIアシスタントが外部データやツールにアクセスするための共通プロトコル。AnthropicとOpenAIが採用する業界標準として注目。JSON-RPC 2.0を使用し、Host・Client・Serverの3層構造で構成。
-[元記事](https://zenn.dev/mkj/articles/0ed4d02ef3439c)
+https://zenn.dev/mkj/articles/0ed4d02ef3439c
 
 - **Agent2Agent（A2A)プロトコルの概要**: GoogleによるAgent2Agent（A2A）プロトコルの概要解説。AIエージェント同士が相互通信するためのオープンプロトコル。シンプルさ、エンタープライズ対応、非同期ファースト、モダリティ非依存、不透明な実行エージェントの5原則に基づく設計。MCPとの相補的関係性も解説。
-[元記事](https://zenn.dev/hakoten/articles/06557100337fb3)
+https://zenn.dev/hakoten/articles/06557100337fb3
 
 ## 🚀 技術トレンド分析
 

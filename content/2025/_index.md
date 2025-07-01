@@ -1,40 +1,16 @@
 ---
-title: "2025年記事アーカイブ"
-description: "2025年に収集された技術記事の日別アーカイブ"
-date: 2025-06-30
+title: "2025 AI Trends"
+description: "AI research and technology developments for 2025"
 ---
 
-# 2025年記事アーカイブ
+# 2025 AI Trends
 
-2025年に収集・要約された技術記事を日付別に整理しています。
+Daily summaries of AI research, technology developments, and industry news for 2025.
 
-## 最新記事
+## July 2025
 
-- [2025-07-01](./2025-07-01/) - 新着1件+clips移行2件 (Microsoft AI, Zenn)
-- [2025-06-30](./2025-06-30/) - AI研究・技術トレンド 日次サマリー (Google Research, Anthropic×2, Meta AI, Zenn, Qiita×2)
+- [July 1, 2025](./2025-07-01/) - Microsoft AI Steijn assistant, MCP & A2A protocols
 
-## 月別アーカイブ
+## Archive
 
-### 7月
-- [2025-07-01](./2025-07-01/) - 1記事 (Microsoft AI)
-
-### 6月
-- [2025-06-30](./2025-06-30/) - 7記事 (Google Research, Anthropic×2, Meta AI, Zenn, Qiita×2)
-
-## 統計情報
-
-**2025年7月の収集実績:**
-- 総記事数: 1記事
-- 更新ソース: 1サイト
-- 最終更新: 2025-07-01
-
-## 主要トピック
-
-- **AI研究**: 個人化推薦システム、対話ダイナミクス、経済的影響研究
-- **Claude活用**: MCP統合、要件定義自動化、技術記事収集システム
-- **技術実装**: Model Context Protocol、subagents、自然言語インターフェース
-- **感情的AI**: ユーザーサポート、個人的助言、対話型システム
-
----
-
-*各日のページで詳細な記事要約をご覧いただけます。*
+Browse by month to explore historical trends and developments.

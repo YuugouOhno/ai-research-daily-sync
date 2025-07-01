@@ -1,37 +1,25 @@
 ---
-title: "AI Research Daily Sync"
-description: "技術記事の日次収集・要約システム"
-date: 2025-07-01
+title: "AI Research & Technology Trends"
+description: "Daily collection of AI research papers, technology trends, and industry developments"
 ---
 
-# AI Research Daily Sync
+# AI Research & Technology Trends
 
-このサイトは、AI関連の技術記事や研究ブログを日次で収集・要約するシステムです。
+This site provides daily summaries of AI research papers, technology trends, and industry developments collected from various sources including academic institutions, tech companies, and industry publications.
 
-## 収集対象ソース
+## Recent Updates
 
-- **Google Research Blog** - Google AI研究チームの最新論文・技術
-- **Anthropic News** - Anthropic社のAI研究・製品アップデート  
-- **Meta AI Blog** - Meta社のAI研究・開発情報
-- **OpenAI News** - OpenAI社の最新情報
-- **Microsoft AI News** - Microsoft AI研究・製品情報
-- **VentureBeat** - AI業界ニュース・分析
+Browse the latest updates by date:
 
-## 更新情報
+- [2025](./2025/)
 
-最新の記事要約は各日付のページをご覧ください。
+## Categories
 
-- [2025-07-01 - Microsoft AI食事計画システム](./2025/2025-07-01/)
-- [2025-06-30 - AI研究・技術トレンド 日次サマリー](./2025/2025-06-30/)
-- [2025年の記事一覧](./2025/)
+- **Research Papers**: Latest AI/ML research publications
+- **Industry News**: Product launches, company announcements, and market developments
+- **Technical Articles**: In-depth technical analysis and implementation guides
+- **Trend Analysis**: Weekly and monthly trend analysis reports
 
-## システム概要
+## Sources
 
-- **自動収集**: 各ソースから新着記事を自動取得
-- **AI要約**: 記事内容を日本語で要約
-- **構造化**: 日付・ソース別に整理
-- **更新通知**: 日次で更新状況をまとめ
-
----
-
-*本サイトは情報収集・研究目的で運営されています。*
+Content is collected from leading AI research institutions, tech companies, and industry publications to provide comprehensive coverage of the AI landscape.

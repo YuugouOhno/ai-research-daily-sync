@@ -1,56 +1,26 @@
 ---
-title: "2025-07-01 - AI研究・技術トレンド"
-description: "Microsoft AI食事計画アシスタント、AIプロトコル技術（MCP・A2A）の最新動向"
+title: "July 1, 2025 - AI Research & Technology Updates"
 date: 2025-07-01
+description: "Microsoft AI Steijn food planning assistant, MCP protocol introduction, and A2A agent communication protocol overview"
+tags: ["microsoft-ai", "azure-ai", "mcp", "agent-protocols", "food-tech"]
 ---
 
-# 2025-07-01 AI研究・技術トレンド
+# July 1, 2025 - AI Research & Technology Updates
 
-## 今日のハイライト
+## Summary
 
-### 記事サマリー
-- **記事数**: 1記事 (Microsoft AI)
-- **手動追加clips**: 2記事 (MCP・A2A プロトコル解説)
-- **主要テーマ**: 実用的AIアシスタント、プロトコル標準化
+Today's updates focus on practical AI implementations and emerging communication protocols:
 
-### 主要トピック
-1. **Azure AI Foundryの実用化**: 食事計画AIの成功事例
-2. **AIプロトコル標準化**: MCP・A2Aの技術仕様
-3. **小規模チーム開発**: 3ヶ月での迅速プロトタイピング
+- **Microsoft AI**: Successful deployment of Steijn, an AI assistant transforming meal planning in the Netherlands
+- **Protocol Development**: Deep dive into MCP (Model Context Protocol) and A2A (Agent2Agent) communication standards
 
-## 記事一覧
+## Articles
 
-### Microsoft AI
-- [Steijn: オランダの食事計画を変革するAIアシスタント](./Steijn%20-%20オランダの食事計画を変革するAIアシスタント.md)
-  - アルバート・ハインのAzure AI Foundry活用事例
-  - 8人チーム・3ヶ月開発で週間500万人にサービス提供
-  - 食品ロス削減と食事計画時間短縮を実現
+1. [Steijn - オランダの食事計画を変革するAIアシスタント](./20250701-001.md) - Microsoft's Azure AI Foundry success story
+2. [Complete daily summary](./abstract.md) - Full analysis of today's AI developments
 
-### 技術解説 (手動clips)
-- **MCP入門** (除外: selfclip)
-  - Model Context Protocolの基本概念
-  - AIアシスタント外部連携の標準化
-- **Agent2Agent（A2A）プロトコル概要** (除外: selfclip) 
-  - GoogleによるAIエージェント間通信プロトコル
-  - MCPとの相補的関係性
+## Key Themes
 
-## 技術トレンド分析
-
-### 注目技術
-- **Azure AI Foundry**: エンタープライズ向けAI開発プラットフォーム
-- **AIプロトコル標準化**: MCP（データ連携）・A2A（エージェント通信）
-- **食品業界AI**: 日常生活密着型サービスの成功パターン
-
-### 将来展望
-- 小売業界のAI顧客体験革新
-- 標準化プロトコルによるAIエコシステム拡大
-- 環境問題への技術的貢献
-
-## 詳細要約
-
-[今日の詳細サマリーを見る](./abstract.md)
-
----
-
-*処理日時: 2025-07-01*  
-*情報源: Microsoft AI News, Zenn (手動clips)*
+- **Practical AI Deployment**: Real-world success stories in retail and food industry
+- **Protocol Standardization**: Emerging standards for AI system communication
+- **Small Team Efficiency**: Rapid development with minimal resources (8-person team, 3-month timeline)

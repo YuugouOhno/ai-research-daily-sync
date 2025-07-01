@@ -18,13 +18,10 @@
     {{ range $abstracts.ByDate.Reverse }}
       {{ $dateDir := path.Dir .File.Path }}
       {{ $date := path.Base $dateDir }}
-      <article class="abstract-item">
+      <article class="abstract-item" href="{{ .Permalink }}">
         <div class="abstract-meta">
           <time datetime="{{ $date }}">{{ dateFormat "2006年01月02日" (time $date) }}</time>
         </div>
-        <h3>
-          <a href="{{ .Permalink }}">本日更新の主要AI関連記事 ({{ $date }})</a>
-        </h3>
         <div class="abstract-summary">
           {{ .Summary | truncate 200 }}
         </div>
