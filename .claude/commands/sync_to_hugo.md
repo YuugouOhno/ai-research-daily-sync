@@ -32,6 +32,9 @@
    # abstract.mdのリンク変換
    変換前: [[Steijn - オランダの食事計画を変革するAIアシスタント]]
    変換後: [Steijn - オランダの食事計画を変革するAIアシスタント](./20250701-001/)
+   
+   # 結果のHugo URL
+   実際のURL: https://yuugouohno.github.io/ai-research-daily-sync/2025/2025-07-01/20250701-001/
    ```
 
 ## 実装
@@ -48,6 +51,7 @@
 6. **abstract.md のリンク変換**:
    - `[[記事タイトル]]` → `[記事タイトル](./YYYYMMDD-xxx/)` に変換（Hugo URL形式）
    - マッピング情報を使用して正しいファイル名にリンク
+   - 最終的なURL: `https://yuugouohno.github.io/ai-research-daily-sync/2025/YYYY-MM-DD/YYYYMMDD-xxx/`
 7. `content/2025/YYYY-MM-DD/` に変換済みファイルをコピー
 8. **Hugoインデックスファイル生成**:
    - `content/_index.md` - サイト全体のインデックス
