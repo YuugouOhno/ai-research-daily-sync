@@ -19,17 +19,17 @@
       {{ $dateDir := path.Dir .File.Path }}
       {{ $date := path.Base $dateDir }}
       <article class="abstract-item">
-        <a href="{{ .Permalink }}">
-          <div class="abstract-meta">
-            <time datetime="{{ $date }}">{{ dateFormat "2006年01月02日" (time $date) }}</time>
-          </div>
-          <div class="abstract-summary">
-            {{ .Summary | truncate 200 }}
-          </div>
-          <div class="abstract-actions">
-            <a href="{{ .Permalink }}" class="read-more">詳細を見る →</a>
-          </div>
-        </a>
+        <div class="abstract-meta">
+          <time datetime="{{ $date }}">{{ dateFormat "2006年01月02日" (time $date) }}</time>
+        </div>
+        <div class="abstract-summary">
+          {{ .Summary | truncate 200 }}
+        </div>
+        <div class="abstract-actions">
+          <a href="{{ .Permalink }}" class="read-more">詳細を見る →</a>
+          {{ $sectionPath := printf "/%s/" $date }}
+          <a href="{{ $sectionPath }}" class="list-view">一覧で見る</a>
+        </div>
       </article>
     {{ end }}
     
@@ -107,17 +107,36 @@
 
 .abstract-actions {
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
 }
 
-.read-more {
+.read-more, .list-view {
   color: #3498db;
   text-decoration: none;
   font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  transition: all 0.3s ease;
 }
 
-.read-more:hover {
-  color: #2980b9;
-  text-decoration: underline;
+.read-more:hover, .list-view:hover {
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+}
+
+.list-view {
+  background-color: transparent;
+  border-color: #95a5a6;
+  color: #95a5a6;
+}
+
+.list-view:hover {
+  background-color: #95a5a6;
+  color: white;
 }
 </style>
 {{ end }}
