@@ -26,8 +26,8 @@
           {{ .Summary | truncate 200 }}
         </div>
         <div class="abstract-actions">
-          <a href="{{ .Permalink }}" class="read-more">詳細を見る →</a>
-          {{ $sectionPath := printf "/%s/" $date }}
+          <a href="{{ .Permalink }}" class="read-more">要約を見る →</a>
+          {{ $sectionPath := printf "ai-research-daily-sync/2025/%s/" $date }}
           <a href="{{ $sectionPath }}" class="list-view">一覧で見る</a>
         </div>
       </article>
