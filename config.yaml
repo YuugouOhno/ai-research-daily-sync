@@ -20,6 +20,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      autoHeadingIDType: "github"
+      attribute:
+        block: false
+        title: true
+  _merge: deep
 
 # Pagination
 pagination:
@@ -28,3 +34,18 @@ pagination:
 # Build settings
 buildDrafts: false
 buildFuture: false
+
+# Security settings
+security:
+  exec:
+    allow:
+      - "^dart-sass-embedded$"
+      - "^go$"
+      - "^npx$"
+      - "^postcss$"
+  funcs:
+    getenv:
+      - "^HUGO_"
+  http:
+    urls:
+      - ".*"
