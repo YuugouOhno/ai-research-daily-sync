@@ -1,20 +1,14 @@
 {
-  "date": "2025-06-30",
+  "date": "2025-07-02",
   "sources": {
-    "Google Research Blog": [
-      {
-        "title": "How we created HOV-specific ETAs in Google Maps",
-        "url": "https://research.google/blog/how-we-created-hov-specific-etas-in-google-maps/",
-        "published": "2025-06-30"
-      }
-    ],
     "Microsoft AI News": [
       {
-        "title": "Steijn: The AI assistant transforming meal planning for millions in the Netherlands",
-        "url": "https://news.microsoft.com/source/emea/features/steijn-the-ai-assistant-transforming-meal-planning-for-millions-in-the-netherlands/",
+        "title": "Premier League and Microsoft join forces to create fan-friendly digital platforms",
+        "url": "https://news.microsoft.com/source/emea/features/premier-league-and-microsoft-join-forces-to-create-fan-friendly-digital-platforms/",
         "published": "2025-07-01"
       }
     ]
   },
-  "no_updates": ["OpenAI News", "Anthropic News", "Meta AI Blog"]
+  "no_updates": ["Google Research Blog", "Anthropic News", "Meta AI Blog"],
+  "errors": ["OpenAI News"]
 }
