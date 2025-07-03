@@ -1,14 +1,14 @@
 {
-  "date": "2025-07-02",
+  "date": "2025-07-03",
   "sources": {
-    "Microsoft AI News": [
+    "Google Research Blog": [
       {
-        "title": "Premier League and Microsoft join forces to create fan-friendly digital platforms",
-        "url": "https://news.microsoft.com/source/emea/features/premier-league-and-microsoft-join-forces-to-create-fan-friendly-digital-platforms/",
-        "published": "2025-07-01"
+        "title": "Making group conversations more accessible with sound localization",
+        "url": "https://research.google/blog/making-group-conversations-more-accessible-with-sound-localization/",
+        "published": "2025-07-02"
       }
     ]
   },
-  "no_updates": ["Google Research Blog", "Anthropic News", "Meta AI Blog"],
+  "no_updates": ["Anthropic News", "Meta AI Blog", "Microsoft AI News"],
   "errors": ["OpenAI News"]
 }
