@@ -1,14 +1,20 @@
 {
-  "date": "2025-07-03",
-  "sources": {
-    "Google Research Blog": [
-      {
-        "title": "Making group conversations more accessible with sound localization",
-        "url": "https://research.google/blog/making-group-conversations-more-accessible-with-sound-localization/",
-        "published": "2025-07-02"
-      }
-    ]
-  },
-  "no_updates": ["Anthropic News", "Meta AI Blog", "Microsoft AI News"],
-  "errors": ["OpenAI News"]
+  "date": "2025-07-05",
+  "articles": [
+    {
+      "title": "Making group conversations more accessible with sound localization",
+      "url": "https://research.google/blog/making-group-conversations-more-accessible-with-sound-localization/",
+      "date": "2025-07-02",
+      "summary": "音声定位による会話アクセシビリティ向上",
+      "source": "Google Research Blog"
+    }
+  ],
+  "sources_checked": [
+    "OpenAI News (403 エラー)",
+    "Google Research Blog",
+    "Anthropic News (新記事なし)",
+    "Meta AI Blog (新記事なし)",
+    "Microsoft AI News (新記事なし)"
+  ],
+  "total_articles": 1
 }
